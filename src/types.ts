@@ -1,4 +1,4 @@
-export type CustomerType = 'standard' | 'premium' | 'vip' | 'employee'
+export type CustomerType = 'standard' | 'premium' | 'vip' | 'employee' | 'partner'
 export type PaymentMethod = 'card' | 'paypal' | 'transfer'
 
 export interface Customer {

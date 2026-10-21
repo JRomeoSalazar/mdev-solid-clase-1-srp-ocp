@@ -29,4 +29,5 @@ export const discountPolicies: Record<CustomerType, DiscountPolicy> = {
   premium: new PercentageDiscount(0.1),
   vip: new VipDiscount(),
   employee: new PercentageDiscount(0.35),
+  partner: new PercentageDiscount(0.15),
 }
