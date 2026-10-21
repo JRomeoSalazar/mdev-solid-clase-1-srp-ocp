@@ -20,4 +20,5 @@ export const paymentFeePolicies: Record<PaymentMethod, PaymentFeePolicy> = {
   card: new RateAndFixedFee(0.015),
   paypal: new RateAndFixedFee(0.029, 0.3),
   transfer: new RateAndFixedFee(0),
+  bizum: new RateAndFixedFee(0.005),
 }
